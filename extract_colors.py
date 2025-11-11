@@ -43,5 +43,4 @@ html += ["</div>", "</body>", "</html>"]
 
 with open("mona.html", "w", encoding="utf-8") as f:
     f.write("\n".join(html))
-
 print("Open it in your browser.")
